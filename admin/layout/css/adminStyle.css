@@ -1,0 +1,470 @@
+/*****************************Start My Framework****************************/
+body{
+
+	direction: rtl;
+	font-family: 'El Messiri';
+}
+:root{
+
+	--mainColor:#E43D8F;
+	--secColor:#2b2b2b;
+}
+.mainColor{
+
+	color: #E43D8F;
+}
+a{
+	text-decoration: none !important;
+}
+h1{
+	
+	font-weight: bold;
+    margin-top: 71px;
+    margin-bottom: 50px;
+}
+
+
+
+/*****************************End My Framework*****************************/
+
+
+/*****************************Start Navbar********************************/
+
+.mynavbar .navbar-light .navbar-brand ,
+.mynavbar .navbar-light .navbar-nav .nav-link {
+	color: var(--mainColor);
+}
+.active{
+	color: springgreen !important;
+}
+
+/*****************************End Navbar********************************/
+
+
+/*****************************Start index Page****************************/
+
+.login{
+    background: -webkit-linear-gradient(bottom, #0250c5, var(--mainColor));
+    direction: ltr;
+	padding: 200px 0;
+}
+
+.login form{
+	background-color: #fff;
+    padding: 38px 37px;
+    width: 37%;
+	margin: auto;
+	border-radius: 8px;
+}
+.login form h2{
+	color: var(--mainColor);
+	margin-bottom: 65px;
+	font-weight:bold ;
+	letter-spacing: 6px;
+}
+.md{
+	color: royalblue !important;
+}
+.login form .group{
+	position: relative;
+}
+.login form .fa-user,
+.login form .fa-lock{
+	color: #314BB9;
+	position: absolute;
+	top: 13px;
+	left: 23px;	
+}
+.login form input{
+	padding-left: 64px;
+	display: inline-block;
+	margin-bottom: 25px;
+	border-radius: 3px;
+}
+
+.login form input[type='checkbox']{
+	display: none;
+}
+.login form label{
+	display: block;
+	text-align: left;
+	margin-bottom: 42px;
+	margin-top: 10px;
+	color: #495057
+}
+.remember{
+	color: transparent;
+	border: 3px solid var(--mainColor);
+	border-radius: 3px;
+	margin-right: 10px;
+	cursor: pointer;
+	transition: all .2s ease-in-out;
+}   
+.choose{
+	color: var(--mainColor);
+}
+.login form input[type='submit']{
+	background-color: var(--mainColor);
+	border: none;
+	padding-left: 0px;
+	display: block;
+	margin-bottom: 20px;
+	width: 100%;
+}
+/*****************************End index Page****************************/
+
+
+/**************************** Categories Page ***************************/
+.manage{
+
+	padding-bottom: 100px;
+}
+
+.manage table{
+
+	text-align: center;
+    margin: auto;
+}
+.manage th,
+.manage td{
+
+	padding: 20px;
+	border: 1px solid var(--mainColor);
+}
+.manage table .ButtEdit{
+
+    margin-right: 20px;
+}
+.add{
+	color: #fff;
+	background-color: #191616;
+    padding: 80px 0;
+}
+.add h1{
+	color: var(--mainColor);
+	font-weight: bold;
+    margin-bottom: 90px;
+}
+.add .form-group{
+
+	margin-bottom: 70px;
+	position: relative;
+
+}
+.add label{
+	line-height: 2.5;
+}
+.add input,
+.add select{
+	margin-right: 30px;
+}
+.add .form-group .upload{
+	
+    width: 208px;
+	margin-right: 340px;
+	color: var(--mainColor);
+}
+.add .form-group .upload span{
+	
+    position: absolute;
+    top: 0px;
+	right: 548px;
+	cursor: pointer;
+	z-index: 100;
+}
+.add .form-group .upload span:hover{
+	color: #fff;
+	transition: all .3s ease-in-out;
+}
+.add .form-group .fa-check{
+	
+	position: absolute;
+    left: 170px;
+    top: 13px;
+    color: var(--mainColor);
+	font-size: 32px;
+	display: none;
+}
+
+.add .form-group .upload input{
+	
+	opacity: 0;
+	margin: 0;
+}
+.add input[type='submit']{
+
+	background: var(--mainColor);
+    border: none;
+	font-weight: bold;
+	margin-right: 219px;
+    margin-top: 35px;
+}
+
+
+.edit{
+	
+	padding-bottom: 50px;
+}
+.edit label{
+	line-height: 2.5;
+}
+.edit input,
+.edit select{
+	
+    margin-right: 20px;
+}
+.edit .upload{
+
+	display: block;
+    margin: auto;
+    margin-top: 35px;
+    color: var(--mainColor);
+    font-weight: bold;
+}
+.edit img{
+
+	height: 400px;
+	padding: 0px 160px;
+	margin-top: 20px;
+}
+.edit .upload label{
+	cursor: pointer;
+}
+.edit .upload label:hover{
+	transition: all .3s ease-in-out;
+	color: var(--secColor);
+}
+.edit .upload input{
+	width: 142px;
+	margin: auto;
+	display: none;
+}
+.edit input[type ='submit']{
+	margin: auto;
+    width: 450px;
+}
+/*****************************End Categories Page****************************/
+
+/*****************************Start Call-Us Page***********************/
+.call-us{
+	
+	margin: 100px 0;
+}
+.call-us .map{
+
+    border-radius: 7px;
+    margin: auto;
+    box-shadow: 10px 10px 5px var(--mainColor);
+}
+
+.call-us form input,
+.call-us form textarea{
+
+	display: block;
+	width: 75%;
+    margin: auto;
+    margin-bottom: 33px;
+    padding: 20px;
+    border-radius: 15px;
+	border: 1px solid #9473DD;
+	font-family: 'El Messiri';
+    font-size: 17px;
+
+}
+.call-us form textarea{
+
+	height: 120px;
+}
+.call-us form input[type='submit']{
+
+	background: -webkit-linear-gradient(left, rgb(148, 115, 221) 0%, var(--mainColor) 100%);
+	margin-top: 43px;
+	border: 0;
+	color: #fff;
+	font-weight: bold;
+    font-size: 22px;
+}
+.call-us ul{
+
+	margin: 35px auto;
+}
+.call-us ul li{
+
+	display: inline-block;
+    padding: 20px;
+
+}
+.errorNum{
+
+	color: var(--mainColor);
+	margin-top: 30px;
+	font-size: 22px;
+    font-weight: 600;
+}
+.error{
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	margin-top: 23px;
+}
+.success{
+
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	margin-top: 250px;
+}
+.call-us ul li .fa-facebook-f,
+.call-us ul li .fa-twitter,
+.call-us ul li .fa-linkedin-in,
+.call-us ul li .fa-instagram{
+
+	transition: all .4s ease-in-out;
+    border-radius: 40px;
+    width: 50px;
+    height: 50px;
+    line-height: 2.7;
+}
+.call-us ul li .fa-facebook-f{
+
+	color: #3b5998;
+	background-color: rgb(59, 89, 152,0.3);
+
+}
+.call-us ul li .fa-facebook-f:hover{
+
+	color: #fff;
+    background-color: #3b5998;
+
+}
+.call-us ul li .fa-twitter{
+
+	color: #1da1f2;
+    background-color: rgb(29, 161, 242,0.3);
+
+}
+.call-us ul li .fa-twitter:hover{
+
+	color: #fff;
+    background-color: #1da1f2;
+
+}
+.call-us ul li .fa-linkedin-in{
+
+	color: #0077b5;
+    background-color: rgb(0, 119, 181,0.3);
+
+}
+.call-us ul li .fa-linkedin-in:hover{
+
+	color: #fff;
+    background-color: #0077b5;
+
+}
+.call-us ul li .fa-instagram{
+
+	color: #e1306c;
+    background-color: rgb(154, 73, 100,0.3);
+
+}
+.call-us ul li .fa-instagram:hover{
+
+	color: #fff;
+    background-color: #e1306c;
+
+}
+
+/*****************************End Call-Us Page************************/
+
+
+
+/*****************************Start Footer Page*************************/
+
+.footer{
+
+	background-color: var(--secColor);
+	color: var(--secColor);
+}
+.footer .logo img{
+
+	margin: 70px 0;
+	width: 400px;
+}
+.footer .info h4{
+
+	color: #FFF;
+
+}
+.footer .info hr{
+
+	display: block;
+	margin: 55px auto;
+	width: 28%;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: var(--mainColor);
+    border-left-width: 77px;
+    border-right-width: 77px;
+}
+.footer .info a{
+
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+	position: relative;
+}
+.footer .info .call-1 a i{
+
+	color: #82c91e;
+	font-size: 24px;
+	position: absolute;
+    left: 0;
+    top: 0;
+    right: 154px;
+}
+.footer .info .call-2{
+	margin-top: 26px;
+}
+.footer .info .call-2 a i{
+
+	color: #cb202d;
+	font-size: 22px;
+	margin-right: 30px;
+}
+.footer .info .call-1 a:hover,
+.footer .info .call-2 a:hover{
+
+	color:var(--mainColor) ;
+	transition: all .5s ease-out;
+}
+.footer .copyright{
+
+	color: #fff;
+	background-color: #444141;
+	font-size: 17px;
+	font-family: 'El Messiri';
+}
+.footer .copyright hr{
+
+	border-style: solid;
+    border-width: 1px;
+}
+.footer .copyright .row{
+	margin: 0;
+	padding-left: 20px;
+    padding-right: 30px;
+}
+.footer .copyright span{
+
+	color: var(--mainColor);
+}
+.footer .copyright a:hover{
+
+	color: #fff;
+	transition: all .3s ease-in-out;
+}
+
+
+
+
+/*****************************End Footer Page*************************/
